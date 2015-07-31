@@ -4,10 +4,11 @@ import {View, Component} from '../../lib/decorators';
 @Component({
     selector: 'footer'
 })
-@View({ template })
+@View({
+    template
+})
 class Footer {
     constructor() {
-        console.log("here")
         this.copyrightDate = new Date();
     }
 }
